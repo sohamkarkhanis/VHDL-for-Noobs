@@ -1,0 +1,2 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/GitHubPublic/dummyVHDL/Vivado Projects/Moore FSM Sequence Detector/Moore FSM Sequence Detector.srcs/sim_1/new/SequenceDetector tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'seqDetector_tb'
