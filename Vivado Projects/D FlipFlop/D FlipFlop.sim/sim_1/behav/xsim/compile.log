@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Master-Rep/VLSI/Vivado/D FlipFlop/D FlipFlop.srcs/sources_1/new/DFF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DFF_SyncReset'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Master-Rep/VLSI/Vivado/D FlipFlop/D FlipFlop.srcs/sim_1/new/DFF_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DFF_SyncReset_tb'
