@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../Raw VHDL/Logic Gates/and2.vhd" \
+"../../../../Multiplexer 2-1 Structural.srcs/sources_1/new/mux21 structural.vhd" \
+"../../../../../../Raw VHDL/Logic Gates/not1.vhd" \
+"../../../../../../Raw VHDL/Logic Gates/or2.vhd" \
+"../../../../Multiplexer 2-1 Structural.srcs/sim_1/new/mux21 structural_tb.vhd" \
+
+# Do not sort compile order
+nosort
