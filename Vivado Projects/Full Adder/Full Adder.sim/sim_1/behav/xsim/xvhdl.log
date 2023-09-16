@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/GitHubPublic/dummyVHDL/Vivado Projects/Full Adder/Full Adder.srcs/sources_1/new/fulladder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FA'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/GitHubPublic/dummyVHDL/Vivado Projects/Full Adder/Full Adder.srcs/sim_1/new/fulladder tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FA_tb'
