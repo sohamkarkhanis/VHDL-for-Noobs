@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Sep 15 17:41:49 2023
+# Process ID: 22284
+# Current directory: G:/GitHubPublic/dummyVHDL/to doo/Half Adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22288 G:\GitHubPublic\dummyVHDL\to doo\Half Adder\Half Adder.xpr
+# Log file: G:/GitHubPublic/dummyVHDL/to doo/Half Adder/vivado.log
+# Journal file: G:/GitHubPublic/dummyVHDL/to doo/Half Adder\vivado.jou
+# Running On: SK-HP, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 16939 MB
+#-----------------------------------------------------------
+start_gui
+open_project {G:/GitHubPublic/dummyVHDL/to doo/Half Adder/Half Adder.xpr}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{G:/GitHubPublic/dummyVHDL/to doo/Half Adder/Half Adder.srcs/sources_1/new/halfadder.vhd}}] -no_script -reset -force -quiet
+remove_files  {{G:/GitHubPublic/dummyVHDL/to doo/Half Adder/Half Adder.srcs/sources_1/new/halfadder.vhd}}
+remove_files  {{G:/GitHubPublic/dummyVHDL/to doo/Half Adder/Half Adder.srcs/sources_1/new/halfadder.vhd}}
+export_ip_user_files -of_objects  [get_files {{G:/GitHubPublic/dummyVHDL/to doo/Half Adder/Half Adder.srcs/sim_1/new/halfadder_tb.vhd}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{G:/GitHubPublic/dummyVHDL/to doo/Half Adder/Half Adder.srcs/sim_1/new/halfadder_tb.vhd}}
+export_ip_user_files -of_objects  [get_files {{G:/GitHubPublic/dummyVHDL/to doo/Half Adder/Half Adder.srcs/utils_1/imports/synth_1/halfadder.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{G:/GitHubPublic/dummyVHDL/to doo/Half Adder/Half Adder.srcs/utils_1/imports/synth_1/halfadder.dcp}}
+close [ open {G:/GitHubPublic/dummyVHDL/to doo/Half Adder/Half Adder.srcs/sources_1/new/halfadder.vhd} w ]
+add_files {{G:/GitHubPublic/dummyVHDL/to doo/Half Adder/Half Adder.srcs/sources_1/new/halfadder.vhd}}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {G:/GitHubPublic/dummyVHDL/to doo/Half Adder/Half Adder.srcs/sim_1/new/halfadder tb.vhd} w ]
+add_files -fileset sim_1 {{G:/GitHubPublic/dummyVHDL/to doo/Half Adder/Half Adder.srcs/sim_1/new/halfadder tb.vhd}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+launch_simulation
+source HA_tb.tcl
+close_sim
