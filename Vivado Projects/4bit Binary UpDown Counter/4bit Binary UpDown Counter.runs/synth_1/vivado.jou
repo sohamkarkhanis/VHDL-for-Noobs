@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Sep 13 17:53:51 2023
+# Process ID: 12348
+# Current directory: G:/Master-Rep/VLSI/Vivado/4bit Binary UpDown Counter/4bit Binary UpDown Counter.runs/synth_1
+# Command line: vivado.exe -log bin4updowncounter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bin4updowncounter.tcl
+# Log file: G:/Master-Rep/VLSI/Vivado/4bit Binary UpDown Counter/4bit Binary UpDown Counter.runs/synth_1/bin4updowncounter.vds
+# Journal file: G:/Master-Rep/VLSI/Vivado/4bit Binary UpDown Counter/4bit Binary UpDown Counter.runs/synth_1\vivado.jou
+# Running On: SK-HP, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 16940 MB
+#-----------------------------------------------------------
+source bin4updowncounter.tcl -notrace

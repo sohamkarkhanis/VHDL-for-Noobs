@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Master-Rep/VLSI/Vivado/4bit Binary UpDown Counter/4bit Binary UpDown Counter.srcs/sources_1/new/bin4updowncounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bin4updowncounter'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Master-Rep/VLSI/Vivado/4bit Binary UpDown Counter/4bit Binary UpDown Counter.srcs/sim_1/new/bin4updowncounter_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_counters'
