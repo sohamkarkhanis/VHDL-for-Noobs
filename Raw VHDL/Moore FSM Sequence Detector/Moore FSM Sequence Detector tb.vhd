@@ -13,19 +13,17 @@ architecture behavior of seqDetector_tb is
 
     component seqDetector
         port (
-            clk          : in  std_logic;
-            rst          : in  std_logic;
-            seq_in       : in  std_logic;
-            detector_out : out std_logic
+            clk, rst, seq_in : in  std_logic;
+            detector_out     : out std_logic
         );
     end component;
-	
+    
     --Inputs
-    signal clk            : std_logic := '0';
-    signal rst            : std_logic := '0';
-    signal seq_in         : std_logic := '0';
+    signal clk          : std_logic := '0';
+    signal rst          : std_logic := '0';
+    signal seq_in       : std_logic := '0';
     --Outputs
-    signal detector_out   : std_logic;
+    signal detector_out : std_logic;
 
 begin
 
@@ -42,8 +40,8 @@ begin
         clk <= '0'; wait for 5ns;
         clk <= '1'; wait for 5ns;
     end process clk_process;
-	
-	
+    
+    
     -- stimulus process
     stim_process : process
     begin
@@ -57,9 +55,9 @@ begin
         seq_in <= '1'; wait for 10 ns;
         seq_in <= '0'; wait for 10 ns;
         seq_in <= '0'; wait for 10 ns;
-		seq_in <= '1'; wait for 10 ns; -- detector_out HIGH
-		seq_in <= '0'; wait for 10 ns;
-		seq_in <= '0'; wait for 10 ns;
+        seq_in <= '1'; wait for 10 ns; -- detector_out HIGH
+        seq_in <= '0'; wait for 10 ns;
+        seq_in <= '0'; wait for 10 ns;
         seq_in <= '1'; wait;           -- detector_out HIGH
     end process stim_process;
 

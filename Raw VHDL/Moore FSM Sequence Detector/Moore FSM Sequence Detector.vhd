@@ -8,10 +8,8 @@ use ieee.std_logic_1164.all;
 
 entity seqDetector is
     port (
-        clk          : in  std_logic;
-        rst          : in  std_logic;
-        seq_in       : in  std_logic;
-        detector_out : out std_logic
+        clk, rst, seq_in : in  std_logic;
+        detector_out     : out std_logic
     );
 end seqDetector;
 
@@ -62,7 +60,7 @@ begin
             else nextState                   <= OneZero;         -- got "1001 0"
             end if;
             
-			-- non-overlapping sequence detection: 
+            -- non-overlapping sequence detection: 
             --when OneZeroZeroOne =>
             --if (seq_in = '1') then nextState <= One;             -- got "1001 1"
             --else nextState                   <= Zero;            -- got "1001 0"
