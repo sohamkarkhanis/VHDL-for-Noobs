@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Demultiplexer 1-4.srcs/sources_1/new/demux14.vhd" \
+"../../../../Demultiplexer 1-4.srcs/sim_1/new/demux14_tb.vhd" \
+
+# Do not sort compile order
+nosort
