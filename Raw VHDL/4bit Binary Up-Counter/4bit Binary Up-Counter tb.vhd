@@ -31,19 +31,15 @@ begin
     -- clock process
     clk_process : process
     begin
-        clk <= '0';
-        wait for 10ns;
-        clk <= '1';
-        wait for 10ns;
+        clk <= '0'; wait for 10ns;
+        clk <= '1'; wait for 10ns;
     end process;
 
     -- stimulus process
     stim_process : process
     begin
-	    rst <= '1';
-        wait for 20ns;
-        rst <= '0';
-        wait;
+        rst <= '1'; wait for 20ns;
+        rst <= '0'; wait;
     end process;
-	
+    
 end;
