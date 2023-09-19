@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ShiftRegister-SIPO 4bit Behavioral.srcs/sources_1/new/sipo4bit.vhd" \
+"../../../../ShiftRegister-SIPO 4bit Behavioral.srcs/sim_1/new/sipo4bit_tb.vhd" \
+
+# Do not sort compile order
+nosort
