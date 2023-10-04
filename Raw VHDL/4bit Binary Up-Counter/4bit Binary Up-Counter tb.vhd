@@ -7,11 +7,11 @@ library IEEE;
 use IEEE.Std_logic_1164.all;
 use IEEE.Numeric_Std.all;
 
-entity bin4counter_tb is
+entity bin4upcounter_tb is
 end;
 
-architecture bench of bin4counter_tb is
-    component bin4counter
+architecture bench of bin4upcounter_tb is
+    component bin4upcounter
         port (
             rst, clk : in  std_logic;
             q        : out std_logic_vector(3 downto 0));
@@ -22,7 +22,7 @@ architecture bench of bin4counter_tb is
 
 begin
 
-    uut : bin4counter port map(
+    uut : bin4upcounter port map(
         rst => rst,
         clk => clk,
         q   => q);
